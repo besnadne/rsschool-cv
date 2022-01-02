@@ -67,11 +67,6 @@ body {
   background-color: #f2c100;
 }
 
- .project-link:hover {
-    width: 20px;
-    height: 36px;
-    background-color: #f2c100;
- }
 
 .nav-link {
     padding: 0 20px;
