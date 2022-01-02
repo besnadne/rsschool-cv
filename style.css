@@ -67,11 +67,6 @@ body {
   background-color: #f2c100;
 }
 
- .project-link:hover {
-    width: 20px;
-    height: 36px;
-    background-color: #f2c100;
- }
 
 .nav-link {
     padding: 0 20px;
@@ -196,11 +191,11 @@ ul, li {
     background-image:url(./assets/bg-light-4861.png)
 }
 
-a :hover{
-    color:blue;
+.to-do {
+    width: 100%;
 }
 
-.section-profile {
+.marge-p {
+    padding-left: 20px;
     margin:0;
-    padding:0;
 }
