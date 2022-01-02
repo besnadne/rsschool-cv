@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container container-header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div></header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section profile-section" id="profile">
+                <h1 class="section-title">Serhii Serpov</h1>
+                <div class="underline-white"></div>
+                <img class='img' src="./assets/prikolnye-avatarki-vk-dlya-parnej_023.jpg" alt="my-avatar">
+            </section>
+            <section class="section section-contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <div class="underlined-black"></div>
+                <ul class="ul-contacts">
+                    <li class="contacts-item">Phone:+380507073203</li>
+                    <li class="contacts-item">E-mail: serpov.box@gmail.com</li>
+                    <li class="contacts-item">Discord: besnadne</li>
+                </ul>
+            </section>
+            <section class="section summary-section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <div class="underline-white"></div>   
+                <ul class="ul-summary">
+                    <li class="summary-item">A good team player   </li>
+                    <li class="summary-item">Supreme communication skills</li>
+                    <li class="summary-item">Multi tasking</li>
+                    <li class="summary-item">Stress resistance.</li>
+                    <li class="summary-item">Quick liearning ability</li>
+                    <li class="summary-item">Positive attitude</li>
+                </ul>
+            </section>
+            <section class="section skills-section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="underlined-black"></div>
+                <ul class="ul-skills">
+                    <li class="skills-item">Java Script(ES6)</li>
+                    <li class="skills-item">CSS, HTML(5), SASS</li>
+                    <li class="skills-item">React, Bootstrap</li>
+                    <li class="skills-item">Git, npm, Webpack, Babel</li>
+                </ul>
+            </section>
+            <section class="section code-section" id="code">
+                <h2 class="section-title">My code</h2>
+                <div class="underline-white"></div> 
+                <p class="code">
+                    <span class="pink">function</span> findDifference(a, b) {
+                        <br>
+                        <span class="pink">let</span> sumA<span class="violet"> = </span><span class="green">1</span>;
+                        <br>
+                        <span class="pink">let</span> sumB <span class="violet"> = </span> <span class="green">1</span>;
+                        <br>
+                        <br>
+                        
+                        a.<span class="pink">forEach</span>(el <span class="violet"> => </span> sumA <span class="violet"> *= </span>el);
+                        <br>
+                        b.<span class="pink">forEach</span>(el <span class="violet"> => </span> sumB <span class="violet"> *= </span> el);
+                        <br>
+                        <br>
+                        
+                        <span class="pink">return</span> sumA <span class="violet"> > </span> sumB <span class="violet"> ? </span> sumA <span class="violet"> - </span> sumB <span class="violet"> : </span> sumB <span class="violet"> - </span> sumA;
+                        <br>
+                      }
+                </p>
+            </section>
+            <section class="section courses-section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <div class="underlined-black"></div>
+                <ul class="ul-courses">
+                    <li class="courses-item">2021 - Google Official Course  Grass Hooper Certificate.</li>
+                    <li class="courses-item">2021 - Code Academy JS Certificate</li>
+                    <li class="courses-item">2021 - Udemy Java Sсript + React</li>
+                </ul>
+            </section>
+            <section class="section projects-section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="underline-white"></div> 
+                <a  class="project-link"href="https://github.com/besnadne/StopWatch" class="stopwatch-project" target="blank">My project - StopWatch</a>
+            </section>
+            <section class="section education-section" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="underlined-black"></div>
+                <p>University-Poltava National Technical University name of Yuri Kondratuyk.2009 – 2014.</p>
+            </section>
+            <section class="section languge-section" id="english">
+                <h2 class="section-title">Languges</h2>
+                <div class="underline-white"></div> 
+                <p>English - Intermediate</p>
+            </section>
+        </div></main>
+    <footer class="footer">
+        <div class="container container-footer">
+                <a href="https://github.com/besnadne" target="blank"><img class="git-img" src="./assets/github-logo-5F384D0265-seeklogo.com.png" alt="github-logo"></a>
+                <h3>2021-2022</h3>
+                <a href="https://rs.school/js/" target="blank"><img class="rsscholl-img" src="/assets/rs_school_js.svg" alt="rsschool-logo"></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
