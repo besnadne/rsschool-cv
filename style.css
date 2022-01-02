@@ -196,11 +196,6 @@ ul, li {
     background-image:url(./assets/bg-light-4861.png)
 }
 
-a :hover{
-    color:blue;
-}
-
-.section-profile {
-    margin:0;
-    padding:0;
+.to-do {
+    width: 100%;
 }
